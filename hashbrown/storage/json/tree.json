@@ -59,7 +59,8 @@
             "en": {
                 "slides": [
                     "e66780ffdfa8db840d961c811cde1cdad4c1b7be",
-                    "aeb83c95163659812c16fb795d7123f5cfcd0ef6"
+                    "aeb83c95163659812c16fb795d7123f5cfcd0ef6",
+                    "03b3c8233fe55e27773210119b8c0edccbd25e31"
                 ],
                 "title": "Sunday Morning",
                 "slideTime": 5
@@ -67,7 +68,7 @@
         },
         "parentId": "e20761b75fdcfa84dcd7eb64d57a8d61b3f37051",
         "createDate": "2017-10-05T05:00:28.796Z",
-        "updateDate": "2017-10-05T05:00:57.677Z",
+        "updateDate": "2017-10-05T06:24:07.965Z",
         "createdBy": "bc72ea43accc46b3a88766fb1fdbd0d479174180",
         "updatedBy": "bc72ea43accc46b3a88766fb1fdbd0d479174180"
     },
