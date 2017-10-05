@@ -9,7 +9,7 @@
         },
         "parentId": "",
         "createDate": "2017-10-05T03:34:00.893Z",
-        "updateDate": "2017-10-05T04:14:42.208Z",
+        "updateDate": "2017-10-05T04:32:14.341Z",
         "createdBy": "bc72ea43accc46b3a88766fb1fdbd0d479174180",
         "updatedBy": "bc72ea43accc46b3a88766fb1fdbd0d479174180"
     },
@@ -21,7 +21,7 @@
         },
         "parentId": "",
         "createDate": "2017-10-05T04:00:01.066Z",
-        "updateDate": "2017-10-05T04:00:17.616Z",
+        "updateDate": "2017-10-05T04:16:33.813Z",
         "createdBy": "bc72ea43accc46b3a88766fb1fdbd0d479174180",
         "updatedBy": "bc72ea43accc46b3a88766fb1fdbd0d479174180"
     },
@@ -36,11 +36,11 @@
                         "startTime": "2017-09-30T14:30:25.691Z",
                         "endTime": "2017-10-06T17:30:38.492Z",
                         "slideshow": "08fa2a7024f1630203217eb23da470a559c85b84",
-                        "Day": "sunday",
+                        "Day": "0",
                         "Time": "am"
                     },
                     {
-                        "Day": "sunday",
+                        "Day": "0",
                         "Time": "pm",
                         "slideshow": "994da426fac5c0f66163e2f3e7d940ec88467675"
                     }
@@ -50,7 +50,7 @@
         },
         "parentId": "7febc0e2f5b86c8fd927c69f349d7d8bf548afd9",
         "createDate": "2017-10-05T04:56:41.460Z",
-        "updateDate": "2017-10-05T05:14:41.364Z",
+        "updateDate": "2017-10-05T05:22:16.840Z",
         "createdBy": "bc72ea43accc46b3a88766fb1fdbd0d479174180",
         "updatedBy": "bc72ea43accc46b3a88766fb1fdbd0d479174180"
     },
