@@ -1,8 +1,9 @@
-html
+html(data-current-schedule=currentSchedule)
   head
     title Slideshow
     link(rel="stylesheet" href="/common/styles.css")
-    script(type="text/javascript" src="/common/index.js")
+    script(type="text/javascript" src="/socket.io/socket.io.js")
+    script(async defer type="text/javascript" src="/common/index.js")
 
   body
     for img, index in images

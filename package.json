@@ -13,6 +13,7 @@
     "ejs": "^2.5.7",
     "express": "^4.15.3",
     "hashbrown-driver": "^0.2.18",
-    "pug": "^2.0.0-rc.4"
+    "pug": "^2.0.0-rc.4",
+    "socket.io": "^2.0.3"
   }
 }
