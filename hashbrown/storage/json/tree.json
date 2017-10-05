@@ -45,12 +45,12 @@
                         "slideshow": "994da426fac5c0f66163e2f3e7d940ec88467675"
                     }
                 ],
-                "Default": "08fa2a7024f1630203217eb23da470a559c85b84"
+                "Default": "994da426fac5c0f66163e2f3e7d940ec88467675"
             }
         },
         "parentId": "7febc0e2f5b86c8fd927c69f349d7d8bf548afd9",
         "createDate": "2017-10-05T04:56:41.460Z",
-        "updateDate": "2017-10-05T05:22:16.840Z",
+        "updateDate": "2017-10-05T05:22:40.025Z",
         "createdBy": "bc72ea43accc46b3a88766fb1fdbd0d479174180",
         "updatedBy": "bc72ea43accc46b3a88766fb1fdbd0d479174180"
     },
@@ -61,12 +61,13 @@
                     "e66780ffdfa8db840d961c811cde1cdad4c1b7be",
                     "aeb83c95163659812c16fb795d7123f5cfcd0ef6"
                 ],
-                "title": "Sunday Morning"
+                "title": "Sunday Morning",
+                "slideTime": 5
             }
         },
         "parentId": "e20761b75fdcfa84dcd7eb64d57a8d61b3f37051",
         "createDate": "2017-10-05T05:00:28.796Z",
-        "updateDate": "2017-10-05T05:00:50.284Z",
+        "updateDate": "2017-10-05T05:00:57.677Z",
         "createdBy": "bc72ea43accc46b3a88766fb1fdbd0d479174180",
         "updatedBy": "bc72ea43accc46b3a88766fb1fdbd0d479174180"
     },
@@ -74,14 +75,16 @@
         "properties": {
             "en": {
                 "slides": [
-                    "aeb83c95163659812c16fb795d7123f5cfcd0ef6"
+                    "aeb83c95163659812c16fb795d7123f5cfcd0ef6",
+                    "<p>Dinner tonight at San Churros!</p>\n"
                 ],
-                "title": "Sunday Night"
+                "title": "Sunday Night",
+                "slideTime": 5
             }
         },
         "parentId": "e20761b75fdcfa84dcd7eb64d57a8d61b3f37051",
         "createDate": "2017-10-05T05:14:47.695Z",
-        "updateDate": "2017-10-05T05:14:47.695Z",
+        "updateDate": "2017-10-05T06:07:43.742Z",
         "createdBy": "bc72ea43accc46b3a88766fb1fdbd0d479174180",
         "updatedBy": "bc72ea43accc46b3a88766fb1fdbd0d479174180"
     }
