@@ -45,12 +45,12 @@
                         "slideshow": "994da426fac5c0f66163e2f3e7d940ec88467675"
                     }
                 ],
-                "Default": "994da426fac5c0f66163e2f3e7d940ec88467675"
+                "Default": "08fa2a7024f1630203217eb23da470a559c85b84"
             }
         },
         "parentId": "7febc0e2f5b86c8fd927c69f349d7d8bf548afd9",
         "createDate": "2017-10-05T04:56:41.460Z",
-        "updateDate": "2017-10-05T05:22:40.025Z",
+        "updateDate": "2017-10-05T06:29:37.089Z",
         "createdBy": "bc72ea43accc46b3a88766fb1fdbd0d479174180",
         "updatedBy": "bc72ea43accc46b3a88766fb1fdbd0d479174180"
     },
@@ -75,8 +75,8 @@
         "properties": {
             "en": {
                 "slides": [
-                    "aeb83c95163659812c16fb795d7123f5cfcd0ef6",
-                    "<p>Dinner tonight at San Churros!</p>\n"
+                    "a906babd5bb038be3e00b5ce1c7466d168695fa5",
+                    "aeb83c95163659812c16fb795d7123f5cfcd0ef6"
                 ],
                 "title": "Sunday Night",
                 "slideTime": 5
@@ -84,8 +84,35 @@
         },
         "parentId": "e20761b75fdcfa84dcd7eb64d57a8d61b3f37051",
         "createDate": "2017-10-05T05:14:47.695Z",
-        "updateDate": "2017-10-05T06:07:43.742Z",
+        "updateDate": "2017-10-05T08:16:25.109Z",
         "createdBy": "bc72ea43accc46b3a88766fb1fdbd0d479174180",
-        "updatedBy": "bc72ea43accc46b3a88766fb1fdbd0d479174180"
+        "updatedBy": "aa7cfd08ae6e78ef2618dfdc0319902684b56837"
+    },
+    "c87562e33ffc675a339e27f945c41d973669fc6e": {
+        "properties": {
+            "en": {
+                "title": "Foyer SL",
+                "description": "Foyer TV, Stage Left",
+                "url": "/tvs/foyer-sl/",
+                "Default": "08fa2a7024f1630203217eb23da470a559c85b84",
+                "Schedule": [
+                    {
+                        "Day": "0",
+                        "Time": "am",
+                        "slideshow": "08fa2a7024f1630203217eb23da470a559c85b84"
+                    },
+                    {
+                        "Day": "0",
+                        "Time": "pm",
+                        "slideshow": "994da426fac5c0f66163e2f3e7d940ec88467675"
+                    }
+                ]
+            }
+        },
+        "parentId": "7febc0e2f5b86c8fd927c69f349d7d8bf548afd9",
+        "createDate": "2017-10-05T08:06:36.640Z",
+        "updateDate": "2017-10-05T08:16:41.488Z",
+        "createdBy": "aa7cfd08ae6e78ef2618dfdc0319902684b56837",
+        "updatedBy": "aa7cfd08ae6e78ef2618dfdc0319902684b56837"
     }
 }
