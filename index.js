@@ -19,7 +19,7 @@ app.use(BodyParser.urlencoded({extended: true}));
 HashBrown.init(app);
 
 // Configure express
-app.use(Express.static(APP_ROOT + '/public'));
+app.use('/common', Express.static(APP_ROOT + '/common'));
 app.use('/media', Express.static(APP_ROOT + '/hashbrown/storage/media'));
 //app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'pug');
@@ -30,8 +30,23 @@ app.get('*', (req, res) => {
     HashBrown.content.getByUrl(req.originalUrl) 
     .then((page) => {
         HashBrown.content.getTree().then((tree) => {
-          res.json(tree)
-           res.status(200).render('pages/slideshow', {img: tree[page.Schedule].properties.en.slides});
+            var date = new Date();
+            var ampm = date.getHours() >= 12 ? 'pm' : 'am';
+            var day = date.getDay()
+            var schedule = page.Schedule;
+            var curSchedule = page.Default;
+            for (var i = 0; i < schedule.length; i++) {
+                if (day == schedule[i].Day 
+                    && (ampm == schedule[i].time || schedule[i].time == 'all')) {
+
+                    curSchedule = schedule[i];
+                    break;
+                }
+            }
+
+            var images = tree[curSchedule].properties.en.slides;
+
+            res.status(200).render('pages/slideshow', {images: images});
         });
     })
     .catch((e) => {

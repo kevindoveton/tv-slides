@@ -1,7 +1,9 @@
 html
   head
     title Slideshow
+    link(rel="stylesheet" href="/common/styles.css")
+    script(type="text/javascript" src="/common/index.js")
 
   body
-    for i in img
-      img(src="/media/"+i)
+    for img, index in images
+      div.img(style="background-image: url('/media/"+img+"');" data-cur-slide=index)
