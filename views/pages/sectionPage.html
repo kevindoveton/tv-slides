@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <meta name="description" content="<%= content.description %>">
+        <title><%= content.title %></title>
+    </head>
+    <body>
+        <% for(let section of content.sections || []) { %>
+            <%- include('../partials/' + section.template + '.html', { content: section, hb: hb }) %>
+        <% } %>
+    </body>
+</html>

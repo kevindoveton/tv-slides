@@ -1,0 +1,8 @@
+{
+    "token": "3340e90b6135a7e2bec659061778ab7b1ddba9f0",
+    "remote": "http://prod3.kdoveton.com:8080",
+    "paths": {
+        "pageTemplates": "views/pages",
+        "partialTemplates": "views/partials"
+    }
+}

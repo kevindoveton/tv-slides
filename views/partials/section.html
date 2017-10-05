@@ -1,0 +1,13 @@
+<section>
+    <h2>Using the shorthand media route</h2>
+    <img src="/media/<%= content.image %>">
+
+    <h2>Using the media cache, we can get the name as well</h2>
+    <% let image = hb.media.getCachedById(content.image) %>
+    <% if(image) { %>
+        <img src="<%= image.url  %>" alt="<%= image.name %>" title="<%= image.name %>">
+    <% } %>
+
+    <h2>Rich text</h2>
+    <%- content.text %>
+</section>
