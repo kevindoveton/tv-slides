@@ -10,6 +10,8 @@ const APP_ROOT = Path.resolve(__dirname);
 
 // Express
 let app = Express();
+const http = require('http').Server(app);
+const io = require('socket.io')(http);
 
 // Configure body parser
 app.use(BodyParser.json({limit: '50mb'}));
@@ -46,7 +48,10 @@ app.get('*', (req, res) => {
 
             var images = tree[curSchedule].properties.en.slides;
 
-            res.status(200).render('pages/slideshow', {images: images});
+            res.status(200).render('pages/slideshow', {
+                images: images,
+                currentSchedule: curSchedule
+            });
         });
     })
     .catch((e) => {
@@ -54,5 +59,48 @@ app.get('*', (req, res) => {
     });
 });
 
+var groups = {};
+
+io.on('connection', function(socket){
+    let group = null;
+
+    socket.on('subscribe', (d) => {
+        socket.join(d);
+        group = d;
+        if (typeof(groups[d]) == 'undefined') {
+            groups[d] = {}
+            socket.emit('youAreLeader');
+        }
+    })
+    
+    socket.on('whoIsLeader', (d) => {
+        groups[group].votes = [];
+        groups[group].leader = false;
+        io.to(group).emit('areYouLeader');
+        setTimeout(() => {
+            if (groups[group].leader == false) {
+                var newLeader = groups[group].votes[0]
+                io.to(group).emit('newLeader', newLeader);
+            }
+        }, 3000);
+    });
+
+    socket.on('iAmLeader', (d) => {
+        if (typeof(groups[group].leader) == 'undefined') {
+            groups[group].leader = true;
+            io.to(group).emit('newLeader', d);
+        }
+    })
+
+    socket.on('iWantToBeLeader', (d) => {
+        groups[group].votes.push(d);
+    });
+    
+    socket.on('reachedFirstSlide', () => {
+        socket.to(group).emit('goToSlide', 0);
+    })
+
+});
+
 // Start server
-let server = app.listen(PORT, '0.0.0.0');
+let server = http.listen(PORT, '0.0.0.0');
