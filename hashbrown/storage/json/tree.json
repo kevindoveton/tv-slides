@@ -58,9 +58,17 @@
         "properties": {
             "en": {
                 "slides": [
-                    "e66780ffdfa8db840d961c811cde1cdad4c1b7be",
-                    "aeb83c95163659812c16fb795d7123f5cfcd0ef6",
-                    "03b3c8233fe55e27773210119b8c0edccbd25e31"
+                    "2e7eb63c5f1a6ed1a13f2909713b367a1bddef14",
+                    "af43ab4e828619ef49df2af7be7a3be98786f112",
+                    "c037a34fe91aa6b1d461580ae908d02d556f3814",
+                    "45d0d25688096a6312f12988d0a7007c30547cf6",
+                    "605337d2648ea7254d2ae80a28aa72684a87faf0",
+                    "2a58da34f43377104c748484fbe314919ef0e036",
+                    "25fb95be84c6d007f6afc1f24d652fc98e68500a",
+                    "05b9eb49e15fac256e6c5244067b115df197f1d1",
+                    "b17288f5e29e303272f4522171c0b17c9ccdf14e",
+                    "db068958e95b2baf536e97fc087728d32a05f4f9",
+                    "231c533629c3f6edff2cbe3256865365d08de2ff"
                 ],
                 "title": "Sunday Morning",
                 "slideTime": 5
@@ -68,7 +76,7 @@
         },
         "parentId": "e20761b75fdcfa84dcd7eb64d57a8d61b3f37051",
         "createDate": "2017-10-05T05:00:28.796Z",
-        "updateDate": "2017-10-05T06:24:07.965Z",
+        "updateDate": "2017-10-07T03:29:00.123Z",
         "createdBy": "bc72ea43accc46b3a88766fb1fdbd0d479174180",
         "updatedBy": "bc72ea43accc46b3a88766fb1fdbd0d479174180"
     },
