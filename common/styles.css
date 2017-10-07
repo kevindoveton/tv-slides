@@ -7,7 +7,7 @@ body {
     background: black;
 }
 div.img {
-    display: none;
+    display: block;
     position: absolute;
     top: 0;
     left: 0;
@@ -16,8 +16,10 @@ div.img {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    opacity: 0;
+    transition: .3s all;
 }
 
-div.img:first-of-type {
-    display: block;
+div.img.show {
+    opacity: 1;
 }
