@@ -17,7 +17,7 @@ div.img {
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0;
-    transition: .3s all;
+    transition: 1s all;
 }
 
 div.img.show {
