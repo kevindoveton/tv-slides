@@ -7,4 +7,5 @@ html(data-current-schedule=currentSchedule)
 
   body
     for img, index in images
-      div.img(style="background-image: url('/media/"+img+"');" data-cur-slide=index)
+      - var classes = (index === 0 ? 'img show' : 'img')
+      div(style="background-image: url('/media/"+img+"');" data-cur-slide=index class=classes)
