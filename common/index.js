@@ -58,6 +58,10 @@ socket.on('newLeader', function(newLeaderId) {
     setUpInterval();
 });
 
+socket.on('reloadPage', function(socket) {
+    location.reload(true);
+});
+
 function setUpInterval() {
     clearInterval(slideInterval);
     slideInterval = setInterval(function() {
