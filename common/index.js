@@ -74,7 +74,7 @@ function goToSlide(curSlide, newSlide) {
         return newSlide;
     }
 
-    var next = document.querySelector('.img[data-cur-slide="'+newSlide+'"');
+    var next = document.querySelector('.img[data-cur-slide="'+newSlide+'"]');
     next.className += " show";
 
     var cur = document.querySelector('.img[data-cur-slide="'+curSlide+'"]');
