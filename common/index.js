@@ -77,20 +77,8 @@ function goToSlide(curSlide, newSlide) {
     var next = document.querySelector('.img[data-cur-slide="'+newSlide+'"');
     next.className += " show";
 
-    var cur = document.querySelector('.img[data-cur-slide="'+curSlide+'"');
+    var cur = document.querySelector('.img[data-cur-slide="'+curSlide+'"]');
     cur.className = cur.className.replace('show', '').replace('  ', '');
     
     return newSlide;
 }
-
-// function animate(start, end, time) {
-//     var FPS = 24;
-//     var totalFrames = time * FPS
-//     var curFrame = 0;
-
-//     if (start == end || curFrame == totalFrames) {
-//         return;
-//     } else {
-
-//     }
-// } 
